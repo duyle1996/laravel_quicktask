@@ -74,10 +74,13 @@
             @yield('content')
         </main>
     </div>
+<<<<<<< HEAD
     
   </div>
 </div>
 
+=======
+>>>>>>> 68569db79f6f47926e10ddc102ae3385f2aa04ce
      <!-- Scripts -->
     {{ Html::script(asset('js/app.js')) }}
     {{ Html::script(asset('js/clicklogout.js')) }}

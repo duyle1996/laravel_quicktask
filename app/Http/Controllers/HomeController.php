@@ -2,9 +2,13 @@
 
 namespace App\Http\Controllers;
 
+<<<<<<< HEAD
 use App\Http\Requests\TaskRequest;
 use Illuminate\Http\Request;
 use App\Models\Task;
+=======
+use Illuminate\Http\Request;
+>>>>>>> 68569db79f6f47926e10ddc102ae3385f2aa04ce
 
 class HomeController extends Controller
 {
@@ -25,6 +29,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+<<<<<<< HEAD
         $users = Task::get();
         return view('tasks.index', ['users' => $users]);
     }
@@ -64,4 +69,8 @@ class HomeController extends Controller
         return redirect()->route('tasks.index');
     }
 
+=======
+        return view('home');
+    }
+>>>>>>> 68569db79f6f47926e10ddc102ae3385f2aa04ce
 }
